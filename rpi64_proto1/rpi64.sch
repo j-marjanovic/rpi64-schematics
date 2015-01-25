@@ -14186,6 +14186,328 @@ www.irf.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="IQD-Frequency-Products">
+<description>&lt;b&gt;Crystals and Oscillators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by IQD Frequency Products&lt;/author&gt;</description>
+<packages>
+<package name="2.6X2.1-4-PAD">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<smd name="1" x="-0.8" y="-0.6" dx="0.9" dy="0.8" layer="1"/>
+<smd name="2" x="0.8" y="-0.6" dx="0.9" dy="0.8" layer="1"/>
+<smd name="3" x="0.8" y="0.6" dx="0.9" dy="0.8" layer="1" rot="R180"/>
+<smd name="4" x="-0.8" y="0.6" dx="0.9" dy="0.8" layer="1" rot="R180"/>
+<text x="-3.24" y="2.04" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.54" y="-3.41" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.6" y1="1.4" x2="1.7" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.4" x2="1.7" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.4" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.4" x2="-2" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.4" x2="-2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.4" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
+<circle x="-1.8" y="-1.7" radius="0.2" width="0" layer="21"/>
+</package>
+<package name="7.2X5.2-4-PAD">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<smd name="1" x="-2.54" y="-2.1" dx="1.8" dy="1.6" layer="1"/>
+<smd name="2" x="2.54" y="-2.1" dx="1.8" dy="1.6" layer="1"/>
+<smd name="3" x="2.54" y="2.1" dx="1.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="4" x="-2.54" y="2.1" dx="1.8" dy="1.6" layer="1" rot="R180"/>
+<text x="-3.8192" y="4.215" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.1192" y="-5.493" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-5.5" y1="3.5" x2="4.63" y2="3.5" width="0.127" layer="21"/>
+<wire x1="4.63" y1="3.5" x2="4.73" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="4.73" y1="-3.5" x2="-4.74" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-4.74" y1="-3.5" x2="-4.74" y2="3.46" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="3.5" x2="-5.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-3.5" x2="-4.74" y2="-3.5" width="0.127" layer="21"/>
+<circle x="-5.1" y="-3.8" radius="0.2" width="0" layer="21"/>
+</package>
+<package name="3.4X2.7-4-PAD">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<wire x1="-3.1" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-3.1" y2="-1.9" width="0.2032" layer="21"/>
+<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
+<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.15" layer="1" rot="R180"/>
+<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.15" layer="1" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.91" width="0.2" layer="21"/>
+<wire x1="-2.42" y1="1.9" x2="-2.42" y2="-1.91" width="0.2" layer="21"/>
+<wire x1="-3.1" y1="1.9" x2="-3.1" y2="-1.9" width="0.2032" layer="21"/>
+<circle x="-2.7" y="-2.3" radius="0.2" width="0" layer="21"/>
+</package>
+<package name="5.0X3.2-4-PAD">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<wire x1="-3.3" y1="-2.5" x2="2.368" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2.476" x2="-2.5" y2="-2.476" width="0.2032" layer="21"/>
+<wire x1="2.368" y1="2.5" x2="-3.3" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-2.476" x2="2.4" y2="2.476" width="0.2032" layer="21"/>
+<smd name="1" x="-1.25" y="-1.25" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="-1.25" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="1.25" dx="1.4" dy="1.4" layer="1" rot="R270"/>
+<smd name="4" x="-1.25" y="1.25" dx="1.4" dy="1.4" layer="1" rot="R270"/>
+<text x="3.04" y="4.39" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<text x="-3.686" y="-4.608" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.3" y1="2.5" x2="-3.3" y2="-2.5" width="0.2032" layer="21"/>
+<circle x="-2.9" y="-2.9" radius="0.2" width="0" layer="21"/>
+</package>
+<package name="5.2X3.4-4-PAD">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<wire x1="-4.2" y1="-2.3" x2="3.368" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="2.276" x2="-3.3" y2="-2.176" width="0.2032" layer="21"/>
+<wire x1="3.368" y1="2.3" x2="-4.2" y2="2.3" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-2.276" x2="3.4" y2="2.276" width="0.2032" layer="21"/>
+<smd name="1" x="-2.1" y="-1.1" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="2.1" y="-1.1" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="3" x="2.1" y="1.1" dx="1.4" dy="1.6" layer="1" rot="R270"/>
+<smd name="4" x="-2.1" y="1.1" dx="1.4" dy="1.6" layer="1" rot="R270"/>
+<text x="3.04" y="4.39" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<text x="-3.686" y="-4.608" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.2" y1="2.3" x2="-4.2" y2="-2.3" width="0.2032" layer="21"/>
+<circle x="-3.7" y="-2.8" radius="0.2" width="0" layer="21"/>
+</package>
+<package name="2.0X1.6-4-PAD">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<smd name="1" x="-0.637" y="-0.487" dx="0.875" dy="0.775" layer="1"/>
+<smd name="2" x="0.637" y="-0.487" dx="0.875" dy="0.775" layer="1"/>
+<smd name="3" x="0.637" y="0.487" dx="0.875" dy="0.775" layer="1" rot="R180"/>
+<smd name="4" x="-0.637" y="0.487" dx="0.875" dy="0.775" layer="1" rot="R180"/>
+<text x="-2.27" y="1.77" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.67" y="-3.34" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.4" y1="1.3" x2="1.5" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.3" x2="1.5" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.3" x2="-1.4" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.3" x2="-1.4" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.3" x2="-1.9" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="1.3" x2="-1.9" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.3" x2="-1.4" y2="-1.3" width="0.127" layer="21"/>
+<circle x="-1.6" y="-1.6" radius="0.2" width="0" layer="21"/>
+</package>
+<package name="2.5X2-4-PAD">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<smd name="1" x="-0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="3" x="0.85" y="0.65" dx="1.2" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="-0.85" y="0.65" dx="1.2" dy="1" layer="1" rot="R180"/>
+<text x="-3.27" y="2.07" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.47" y="-3.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.1" y1="-1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="-2.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.5" x2="-2.1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.5" x2="-2.6" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.5" x2="-2.1" y2="-1.5" width="0.127" layer="21"/>
+<circle x="-2.3" y="-1.8" radius="0.2" width="0" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="QG2">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="6.35" y2="0" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="0" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="-3.175" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="3.175" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="3.175" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.175" x2="-1.27" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="-0.381" x2="-4.826" y2="0.381" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="0.381" x2="-2.794" y2="0.381" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="-0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.016" x2="-3.81" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.016" x2="-3.81" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
+<text x="-7.62" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.985" y="4.318" size="1.524" layer="95">VDD</text>
+<text x="-6.985" y="-5.842" size="1.524" layer="95">VSS</text>
+<text x="2.54" y="-5.842" size="1.524" layer="95">OUT</text>
+<text x="2.54" y="5.588" size="1.524" layer="95">CON</text>
+<pin name="VSS" x="-12.7" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="VDD" x="-12.7" y="5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<pin name="CON" x="12.7" y="5.08" visible="pad" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OSC-OE" prefix="OS">
+<description>&lt;b&gt;OSCILLATOR WITH OE&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="QG2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-CFPS-107" package="2.6X2.1-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-108" package="2.6X2.1-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-109" package="2.6X2.1-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-32" package="7.2X5.2-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-39" package="3.4X2.7-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-69" package="5.0X3.2-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-72" package="7.2X5.2-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-73" package="7.2X5.2-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-CFPS-9" package="5.2X3.4-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-IQXO-540" package="2.0X1.6-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-IQXO-541" package="2.0X1.6-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-IQXO-542" package="2.0X1.6-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-IQXO-793" package="2.5X2-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-IQXO-794" package="2.5X2-4-PAD">
+<connects>
+<connect gate="A" pin="CON" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="VDD" pad="4"/>
+<connect gate="A" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14331,6 +14653,10 @@ www.irf.com&lt;p&gt;
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="OS1" library="IQD-Frequency-Products" deviceset="OSC-OE" device="-CFPS-73"/>
+<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14341,6 +14667,7 @@ connected to 3.3V
 for SPI slave prog mode</text>
 <text x="203.2" y="271.78" size="1.778" layer="91">controller 3</text>
 <text x="203.2" y="264.16" size="1.778" layer="91">controller 2</text>
+<text x="299.72" y="76.2" size="3.81" layer="97">TODO: CONF DONE</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="104.14" y="33.02" rot="MR90"/>
@@ -14483,6 +14810,10 @@ for SPI slave prog mode</text>
 <instance part="+3V11" gate="G$1" x="279.4" y="203.2"/>
 <instance part="C14" gate="G$1" x="332.74" y="193.04"/>
 <instance part="C15" gate="G$1" x="337.82" y="172.72"/>
+<instance part="OS1" gate="A" x="294.64" y="226.06"/>
+<instance part="+3V12" gate="G$1" x="274.32" y="238.76"/>
+<instance part="C16" gate="G$1" x="271.78" y="228.6"/>
+<instance part="SUPPLY10" gate="GND" x="274.32" y="215.9"/>
 </instances>
 <busses>
 </busses>
@@ -15710,6 +16041,15 @@ for SPI slave prog mode</text>
 <wire x1="332.74" y1="187.96" x2="332.74" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="185.42" x2="325.12" y2="185.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="223.52" x2="271.78" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="220.98" x2="274.32" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<wire x1="274.32" y1="220.98" x2="274.32" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="OS1" gate="A" pin="VSS"/>
+<wire x1="281.94" y1="220.98" x2="274.32" y2="220.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$102" class="0">
 <segment>
@@ -15838,6 +16178,21 @@ for SPI slave prog mode</text>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="195.58" x2="332.74" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="198.12" x2="325.12" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
+<wire x1="274.32" y1="236.22" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="233.68" x2="271.78" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="233.68" x2="271.78" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="OS1" gate="A" pin="VDD"/>
+<wire x1="281.94" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="231.14" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="231.14" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="OS1" gate="A" pin="CON"/>
+<wire x1="307.34" y1="231.14" x2="307.34" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="238.76" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="238.76" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -16442,6 +16797,30 @@ for SPI slave prog mode</text>
 <pinref part="U$2" gate="G$1" pin="IOT_77"/>
 <wire x1="231.14" y1="294.64" x2="213.36" y2="294.64" width="0.1524" layer="91"/>
 <label x="215.9" y="294.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RPI_CLKOUT" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="7"/>
+<wire x1="284.48" y1="40.64" x2="261.62" y2="40.64" width="0.1524" layer="91"/>
+<label x="261.62" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="IOR_61_GBIN2"/>
+<wire x1="292.1" y1="279.4" x2="274.32" y2="279.4" width="0.1524" layer="91"/>
+<label x="274.32" y="279.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="OSC_OUT" class="0">
+<segment>
+<pinref part="U$2" gate="G$2" pin="IOR_60_GBIN3"/>
+<wire x1="292.1" y1="281.94" x2="274.32" y2="281.94" width="0.1524" layer="91"/>
+<label x="274.32" y="281.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OS1" gate="A" pin="OUT"/>
+<wire x1="307.34" y1="226.06" x2="314.96" y2="226.06" width="0.1524" layer="91"/>
+<label x="309.88" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
