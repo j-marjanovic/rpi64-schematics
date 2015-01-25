@@ -11982,6 +11982,36 @@ www.irf.com&lt;p&gt;
 <part name="U$7" library="rpi64" deviceset="N64_CONTROLER" device=""/>
 <part name="U$8" library="rpi64" deviceset="N64_CONTROLER" device=""/>
 <part name="U$9" library="rpi64" deviceset="N64_CONTROLER" device=""/>
+<part name="R53" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R54" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R55" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R56" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R57" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R58" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R59" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R60" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R61" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R62" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R63" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R64" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R65" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R66" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R67" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R72" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R73" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R74" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R75" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R76" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R77" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R78" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R79" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R80" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R81" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R82" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R83" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R84" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R85" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R86" library="rcl" deviceset="R-EU_" device="R0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -11990,6 +12020,8 @@ www.irf.com&lt;p&gt;
 <text x="347.98" y="68.58" size="1.778" layer="97">Vpp_2V5 can be 
 connected to 3.3V 
 for SPI slave prog mode</text>
+<text x="203.2" y="271.78" size="1.778" layer="91">controller 3</text>
+<text x="203.2" y="264.16" size="1.778" layer="91">controller 2</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="104.14" y="33.02" rot="MR90"/>
@@ -12063,10 +12095,10 @@ for SPI slave prog mode</text>
 <instance part="C1" gate="G$1" x="342.9" y="40.64"/>
 <instance part="C2" gate="G$1" x="375.92" y="40.64"/>
 <instance part="C3" gate="G$1" x="378.46" y="0"/>
-<instance part="U$2" gate="G$1" x="210.82" y="193.04"/>
-<instance part="U$2" gate="G$2" x="266.7" y="193.04"/>
-<instance part="U$2" gate="G$3" x="327.66" y="182.88"/>
-<instance part="U$2" gate="G$4" x="381" y="195.58"/>
+<instance part="U$2" gate="G$1" x="231.14" y="284.48"/>
+<instance part="U$2" gate="G$2" x="292.1" y="195.58"/>
+<instance part="U$2" gate="G$3" x="175.26" y="274.32"/>
+<instance part="U$2" gate="G$4" x="111.76" y="287.02"/>
 <instance part="U$2" gate="G$5" x="309.88" y="96.52"/>
 <instance part="U$2" gate="G$6" x="373.38" y="96.52"/>
 <instance part="+3V4" gate="G$1" x="347.98" y="114.3"/>
@@ -12075,18 +12107,48 @@ for SPI slave prog mode</text>
 <instance part="R51" gate="G$1" x="271.78" y="93.98"/>
 <instance part="Q1" gate="G$1" x="281.94" y="86.36"/>
 <instance part="SUPPLY6" gate="GND" x="281.94" y="76.2"/>
-<instance part="+3V6" gate="G$1" x="205.74" y="228.6"/>
-<instance part="+3V7" gate="G$1" x="261.62" y="226.06"/>
-<instance part="+3V8" gate="G$1" x="322.58" y="205.74"/>
-<instance part="+3V9" gate="G$1" x="375.92" y="228.6"/>
+<instance part="+3V6" gate="G$1" x="226.06" y="320.04"/>
+<instance part="+3V7" gate="G$1" x="287.02" y="228.6"/>
+<instance part="+3V8" gate="G$1" x="170.18" y="297.18"/>
+<instance part="+3V9" gate="G$1" x="106.68" y="320.04"/>
 <instance part="Q2" gate="G$1" x="297.18" y="68.58"/>
 <instance part="SUPPLY7" gate="GND" x="297.18" y="58.42"/>
 <instance part="R52" gate="G$1" x="299.72" y="91.44"/>
 <instance part="+3V10" gate="G$1" x="289.56" y="91.44" rot="R90"/>
-<instance part="U$6" gate="G$1" x="53.34" y="203.2"/>
-<instance part="U$7" gate="G$1" x="76.2" y="203.2"/>
-<instance part="U$8" gate="G$1" x="96.52" y="203.2"/>
-<instance part="U$9" gate="G$1" x="116.84" y="203.2"/>
+<instance part="U$6" gate="G$1" x="256.54" y="144.78"/>
+<instance part="U$7" gate="G$1" x="292.1" y="147.32"/>
+<instance part="U$8" gate="G$1" x="327.66" y="144.78"/>
+<instance part="U$9" gate="G$1" x="353.06" y="144.78"/>
+<instance part="R53" gate="G$1" x="99.06" y="223.52"/>
+<instance part="R54" gate="G$1" x="109.22" y="220.98"/>
+<instance part="R55" gate="G$1" x="99.06" y="218.44"/>
+<instance part="R56" gate="G$1" x="109.22" y="215.9"/>
+<instance part="R57" gate="G$1" x="99.06" y="213.36"/>
+<instance part="R58" gate="G$1" x="109.22" y="210.82"/>
+<instance part="R59" gate="G$1" x="99.06" y="208.28"/>
+<instance part="R60" gate="G$1" x="109.22" y="205.74"/>
+<instance part="R61" gate="G$1" x="99.06" y="203.2"/>
+<instance part="R62" gate="G$1" x="109.22" y="200.66"/>
+<instance part="R63" gate="G$1" x="99.06" y="198.12"/>
+<instance part="R64" gate="G$1" x="109.22" y="195.58"/>
+<instance part="R65" gate="G$1" x="99.06" y="193.04"/>
+<instance part="R66" gate="G$1" x="109.22" y="190.5"/>
+<instance part="R67" gate="G$1" x="99.06" y="187.96"/>
+<instance part="R72" gate="G$1" x="210.82" y="218.44"/>
+<instance part="R73" gate="G$1" x="220.98" y="215.9"/>
+<instance part="R74" gate="G$1" x="210.82" y="213.36"/>
+<instance part="R75" gate="G$1" x="220.98" y="210.82"/>
+<instance part="R76" gate="G$1" x="210.82" y="208.28"/>
+<instance part="R77" gate="G$1" x="220.98" y="205.74"/>
+<instance part="R78" gate="G$1" x="210.82" y="203.2"/>
+<instance part="R79" gate="G$1" x="220.98" y="200.66"/>
+<instance part="R80" gate="G$1" x="210.82" y="198.12"/>
+<instance part="R81" gate="G$1" x="220.98" y="195.58"/>
+<instance part="R82" gate="G$1" x="210.82" y="193.04"/>
+<instance part="R83" gate="G$1" x="220.98" y="190.5"/>
+<instance part="R84" gate="G$1" x="210.82" y="187.96"/>
+<instance part="R85" gate="G$1" x="220.98" y="185.42"/>
+<instance part="R86" gate="G$1" x="210.82" y="182.88"/>
 </instances>
 <busses>
 </busses>
@@ -12481,6 +12543,10 @@ for SPI slave prog mode</text>
 <wire x1="86.36" y1="40.64" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="5"/>
+<pinref part="R67" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="187.96" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="187.96" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
+<junction x="86.36" y="119.38"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -12495,6 +12561,10 @@ for SPI slave prog mode</text>
 <wire x1="83.82" y1="43.18" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="7"/>
+<pinref part="R66" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="190.5" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
+<junction x="83.82" y="121.92"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -12509,6 +12579,10 @@ for SPI slave prog mode</text>
 <wire x1="81.28" y1="45.72" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="9"/>
+<pinref part="R65" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="193.04" x2="81.28" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="193.04" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
+<junction x="81.28" y="124.46"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -12523,6 +12597,10 @@ for SPI slave prog mode</text>
 <wire x1="78.74" y1="48.26" x2="78.74" y2="127" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="127" x2="78.74" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="11"/>
+<pinref part="R64" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="195.58" x2="78.74" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="195.58" x2="78.74" y2="127" width="0.1524" layer="91"/>
+<junction x="78.74" y="127"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -12537,6 +12615,10 @@ for SPI slave prog mode</text>
 <wire x1="76.2" y1="50.8" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="129.54" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="13"/>
+<pinref part="R63" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="198.12" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="198.12" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<junction x="76.2" y="129.54"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -12551,6 +12633,10 @@ for SPI slave prog mode</text>
 <wire x1="73.66" y1="53.34" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="132.08" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="15"/>
+<pinref part="R62" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="200.66" x2="73.66" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="200.66" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<junction x="73.66" y="132.08"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -12565,6 +12651,10 @@ for SPI slave prog mode</text>
 <wire x1="71.12" y1="55.88" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="17"/>
+<pinref part="R61" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="203.2" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="203.2" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
+<junction x="71.12" y="134.62"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -12579,6 +12669,10 @@ for SPI slave prog mode</text>
 <wire x1="68.58" y1="58.42" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="1"/>
+<pinref part="R60" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="205.74" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="205.74" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+<junction x="68.58" y="144.78"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -12593,6 +12687,10 @@ for SPI slave prog mode</text>
 <wire x1="66.04" y1="60.96" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="147.32" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="3"/>
+<pinref part="R59" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="208.28" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
+<junction x="66.04" y="147.32"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -12607,6 +12705,10 @@ for SPI slave prog mode</text>
 <wire x1="63.5" y1="63.5" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="5"/>
+<pinref part="R58" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="210.82" x2="63.5" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="210.82" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<junction x="63.5" y="149.86"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -12621,6 +12723,10 @@ for SPI slave prog mode</text>
 <wire x1="109.22" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="152.4" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="7"/>
+<pinref part="R57" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="213.36" x2="60.96" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="213.36" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
+<junction x="60.96" y="152.4"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -12635,6 +12741,10 @@ for SPI slave prog mode</text>
 <wire x1="109.22" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="154.94" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="9"/>
+<pinref part="R56" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="215.9" x2="58.42" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="215.9" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
+<junction x="58.42" y="154.94"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -12649,6 +12759,10 @@ for SPI slave prog mode</text>
 <wire x1="109.22" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="157.48" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="11"/>
+<pinref part="R55" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="218.44" x2="55.88" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="218.44" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
+<junction x="55.88" y="157.48"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -12663,6 +12777,10 @@ for SPI slave prog mode</text>
 <wire x1="109.22" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="160.02" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="13"/>
+<pinref part="R54" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="220.98" x2="53.34" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="220.98" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
+<junction x="53.34" y="160.02"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -12677,6 +12795,10 @@ for SPI slave prog mode</text>
 <wire x1="50.8" y1="76.2" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="162.56" x2="109.22" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="15"/>
+<pinref part="R53" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="223.52" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="223.52" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<junction x="50.8" y="162.56"/>
 </segment>
 </net>
 <net name="N$68" class="0">
@@ -12791,6 +12913,10 @@ for SPI slave prog mode</text>
 <wire x1="139.7" y1="40.64" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="6"/>
+<pinref part="R72" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="218.44" x2="139.7" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="218.44" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
+<junction x="139.7" y="119.38"/>
 </segment>
 </net>
 <net name="N$79" class="0">
@@ -12805,6 +12931,10 @@ for SPI slave prog mode</text>
 <wire x1="142.24" y1="43.18" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="8"/>
+<pinref part="R73" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="215.9" x2="142.24" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="215.9" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<junction x="142.24" y="121.92"/>
 </segment>
 </net>
 <net name="N$80" class="0">
@@ -12819,6 +12949,10 @@ for SPI slave prog mode</text>
 <wire x1="144.78" y1="45.72" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="10"/>
+<pinref part="R74" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="213.36" x2="144.78" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="213.36" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
+<junction x="144.78" y="124.46"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -12833,6 +12967,10 @@ for SPI slave prog mode</text>
 <wire x1="147.32" y1="48.26" x2="147.32" y2="127" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="12"/>
+<wire x1="147.32" y1="210.82" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<junction x="147.32" y="127"/>
+<pinref part="R75" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="210.82" x2="215.9" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$82" class="0">
@@ -12847,6 +12985,10 @@ for SPI slave prog mode</text>
 <wire x1="149.86" y1="50.8" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="14"/>
+<pinref part="R76" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="208.28" x2="149.86" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="208.28" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
+<junction x="149.86" y="129.54"/>
 </segment>
 </net>
 <net name="N$83" class="0">
@@ -12861,6 +13003,10 @@ for SPI slave prog mode</text>
 <wire x1="152.4" y1="53.34" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="16"/>
+<pinref part="R77" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="205.74" x2="152.4" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="205.74" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
+<junction x="152.4" y="132.08"/>
 </segment>
 </net>
 <net name="N$84" class="0">
@@ -12875,6 +13021,10 @@ for SPI slave prog mode</text>
 <wire x1="154.94" y1="55.88" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="134.62" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="18"/>
+<pinref part="R78" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="203.2" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
+<junction x="154.94" y="134.62"/>
 </segment>
 </net>
 <net name="N$85" class="0">
@@ -12889,6 +13039,10 @@ for SPI slave prog mode</text>
 <wire x1="157.48" y1="58.42" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="2"/>
+<pinref part="R79" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="200.66" x2="157.48" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="200.66" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
+<junction x="157.48" y="144.78"/>
 </segment>
 </net>
 <net name="N$86" class="0">
@@ -12903,6 +13057,10 @@ for SPI slave prog mode</text>
 <wire x1="160.02" y1="60.96" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="4"/>
+<pinref part="R80" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="198.12" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="198.12" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
+<junction x="160.02" y="147.32"/>
 </segment>
 </net>
 <net name="N$87" class="0">
@@ -12917,6 +13075,10 @@ for SPI slave prog mode</text>
 <wire x1="162.56" y1="63.5" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="6"/>
+<pinref part="R81" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="195.58" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="195.58" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
+<junction x="162.56" y="149.86"/>
 </segment>
 </net>
 <net name="N$88" class="0">
@@ -12931,6 +13093,10 @@ for SPI slave prog mode</text>
 <wire x1="165.1" y1="66.04" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="8"/>
+<pinref part="R82" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="193.04" x2="165.1" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="193.04" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
+<junction x="165.1" y="152.4"/>
 </segment>
 </net>
 <net name="N$89" class="0">
@@ -12945,6 +13111,10 @@ for SPI slave prog mode</text>
 <wire x1="167.64" y1="68.58" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="10"/>
+<pinref part="R83" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="190.5" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="190.5" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
+<junction x="167.64" y="154.94"/>
 </segment>
 </net>
 <net name="N$90" class="0">
@@ -12959,20 +13129,10 @@ for SPI slave prog mode</text>
 <wire x1="170.18" y1="71.12" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="12"/>
-</segment>
-</net>
-<net name="N$91" class="0">
-<segment>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="-22.86" x2="195.58" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-22.86" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$35"/>
-<wire x1="195.58" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
-<junction x="172.72" y="73.66"/>
-<wire x1="172.72" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="73.66" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="14"/>
+<pinref part="R84" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="187.96" x2="170.18" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="187.96" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
+<junction x="170.18" y="157.48"/>
 </segment>
 </net>
 <net name="N$92" class="0">
@@ -12987,6 +13147,10 @@ for SPI slave prog mode</text>
 <wire x1="175.26" y1="76.2" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="16"/>
+<pinref part="R86" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="182.88" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
+<junction x="175.26" y="162.56"/>
 </segment>
 </net>
 <net name="N$93" class="0">
@@ -13206,41 +13370,41 @@ for SPI slave prog mode</text>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCCIO_0"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="210.82" y1="220.98" x2="205.74" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="220.98" x2="205.74" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="312.42" x2="226.06" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="312.42" x2="226.06" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VCCIO_0@1"/>
-<wire x1="210.82" y1="218.44" x2="205.74" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="218.44" x2="205.74" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="309.88" x2="226.06" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="309.88" x2="226.06" y2="312.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$2" pin="VCCIO_1"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="266.7" y1="218.44" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="218.44" x2="261.62" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="220.98" x2="287.02" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="220.98" x2="287.02" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$2" pin="VCCIO_1@1"/>
-<wire x1="266.7" y1="215.9" x2="261.62" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="215.9" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="218.44" x2="287.02" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="218.44" x2="287.02" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$3" pin="VCCIO_2"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<wire x1="327.66" y1="198.12" x2="322.58" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="198.12" x2="322.58" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="289.56" x2="170.18" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="289.56" x2="170.18" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$3" pin="VCCIO_2@1"/>
-<wire x1="327.66" y1="195.58" x2="322.58" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="195.58" x2="322.58" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="287.02" x2="170.18" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="287.02" x2="170.18" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$4" pin="VCCIO_3"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="381" y1="223.52" x2="375.92" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="223.52" x2="375.92" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="314.96" x2="106.68" y2="314.96" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="314.96" x2="106.68" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$4" pin="VCCIO_3@1"/>
-<wire x1="381" y1="220.98" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="220.98" x2="375.92" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="312.42" x2="106.68" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="312.42" x2="106.68" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$4" pin="VCCIO_3@2"/>
-<wire x1="381" y1="218.44" x2="375.92" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="218.44" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="309.88" x2="106.68" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="309.88" x2="106.68" y2="312.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R52" gate="G$1" pin="1"/>
@@ -13373,6 +13537,318 @@ for SPI slave prog mode</text>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="292.1" y1="66.04" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
 <label x="276.86" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$105" class="0">
+<segment>
+<wire x1="218.44" y1="185.42" x2="215.9" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="R85" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="-22.86" x2="195.58" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-22.86" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$35"/>
+<wire x1="195.58" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<junction x="172.72" y="73.66"/>
+<wire x1="172.72" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="73.66" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="14"/>
+<wire x1="215.9" y1="185.42" x2="172.72" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="185.42" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
+<junction x="172.72" y="160.02"/>
+</segment>
+</net>
+<net name="SLOT_14" class="0">
+<segment>
+<pinref part="R53" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="223.52" x2="129.54" y2="223.52" width="0.1524" layer="91"/>
+<label x="116.84" y="223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$3" pin="IOB_37"/>
+<wire x1="175.26" y1="264.16" x2="154.94" y2="264.16" width="0.1524" layer="91"/>
+<label x="157.48" y="264.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_13" class="0">
+<segment>
+<pinref part="R54" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="220.98" x2="129.54" y2="220.98" width="0.1524" layer="91"/>
+<label x="116.84" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$3" pin="IOB_34"/>
+<wire x1="175.26" y1="266.7" x2="154.94" y2="266.7" width="0.1524" layer="91"/>
+<label x="157.48" y="266.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_12" class="0">
+<segment>
+<pinref part="R55" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="218.44" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
+<label x="116.84" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$3" pin="IOB_30"/>
+<wire x1="175.26" y1="274.32" x2="154.94" y2="274.32" width="0.1524" layer="91"/>
+<label x="157.48" y="274.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_11" class="0">
+<segment>
+<pinref part="R56" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="215.9" x2="129.54" y2="215.9" width="0.1524" layer="91"/>
+<label x="116.84" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$3" pin="IOB_29"/>
+<wire x1="175.26" y1="276.86" x2="154.94" y2="276.86" width="0.1524" layer="91"/>
+<label x="157.48" y="276.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_10" class="0">
+<segment>
+<pinref part="R57" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="213.36" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
+<label x="116.84" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$3" pin="IOB_28"/>
+<wire x1="175.26" y1="279.4" x2="154.94" y2="279.4" width="0.1524" layer="91"/>
+<label x="157.48" y="279.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_9" class="0">
+<segment>
+<pinref part="R58" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="210.82" x2="129.54" y2="210.82" width="0.1524" layer="91"/>
+<label x="116.84" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$3" pin="IOB_27"/>
+<wire x1="175.26" y1="281.94" x2="154.94" y2="281.94" width="0.1524" layer="91"/>
+<label x="157.48" y="281.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_8" class="0">
+<segment>
+<pinref part="R59" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="208.28" x2="129.54" y2="208.28" width="0.1524" layer="91"/>
+<label x="116.84" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOB_26"/>
+<wire x1="111.76" y1="256.54" x2="88.9" y2="256.54" width="0.1524" layer="91"/>
+<label x="91.44" y="256.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_7" class="0">
+<segment>
+<pinref part="R60" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="205.74" x2="129.54" y2="205.74" width="0.1524" layer="91"/>
+<label x="116.84" y="205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_1A"/>
+<wire x1="111.76" y1="302.26" x2="88.9" y2="302.26" width="0.1524" layer="91"/>
+<label x="91.44" y="302.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_6" class="0">
+<segment>
+<pinref part="R61" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
+<label x="116.84" y="203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_95"/>
+<wire x1="231.14" y1="256.54" x2="213.36" y2="256.54" width="0.1524" layer="91"/>
+<label x="215.9" y="256.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_5" class="0">
+<segment>
+<pinref part="R62" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="200.66" x2="129.54" y2="200.66" width="0.1524" layer="91"/>
+<label x="116.84" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_93"/>
+<wire x1="231.14" y1="259.08" x2="213.36" y2="259.08" width="0.1524" layer="91"/>
+<label x="215.9" y="259.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_4" class="0">
+<segment>
+<pinref part="R63" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
+<label x="116.84" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_91"/>
+<wire x1="231.14" y1="261.62" x2="213.36" y2="261.62" width="0.1524" layer="91"/>
+<label x="215.9" y="261.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_3" class="0">
+<segment>
+<pinref part="R64" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="195.58" x2="129.54" y2="195.58" width="0.1524" layer="91"/>
+<label x="116.84" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_89"/>
+<wire x1="231.14" y1="266.7" x2="213.36" y2="266.7" width="0.1524" layer="91"/>
+<label x="215.9" y="266.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_2" class="0">
+<segment>
+<pinref part="R65" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="193.04" x2="129.54" y2="193.04" width="0.1524" layer="91"/>
+<label x="116.84" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_88"/>
+<wire x1="231.14" y1="269.24" x2="213.36" y2="269.24" width="0.1524" layer="91"/>
+<label x="215.9" y="269.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_1" class="0">
+<segment>
+<pinref part="R66" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="190.5" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
+<label x="116.84" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_86"/>
+<wire x1="231.14" y1="274.32" x2="213.36" y2="274.32" width="0.1524" layer="91"/>
+<label x="215.9" y="274.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLOT_0" class="0">
+<segment>
+<pinref part="R67" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="187.96" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
+<label x="116.84" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_85_GBIN0"/>
+<wire x1="231.14" y1="276.86" x2="213.36" y2="276.86" width="0.1524" layer="91"/>
+<label x="215.9" y="276.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$107" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_2B"/>
+<wire x1="111.76" y1="294.64" x2="88.9" y2="294.64" width="0.1524" layer="91"/>
+<label x="91.44" y="294.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$111" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_5B"/>
+<wire x1="111.76" y1="284.48" x2="88.9" y2="284.48" width="0.1524" layer="91"/>
+<label x="91.44" y="284.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$117" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_8B"/>
+<wire x1="111.76" y1="269.24" x2="88.9" y2="269.24" width="0.1524" layer="91"/>
+<label x="91.44" y="269.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$118" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_10A"/>
+<wire x1="111.76" y1="266.7" x2="88.9" y2="266.7" width="0.1524" layer="91"/>
+<label x="91.44" y="266.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$119" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_10B"/>
+<wire x1="111.76" y1="264.16" x2="88.9" y2="264.16" width="0.1524" layer="91"/>
+<label x="91.44" y="264.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$110" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="IOT_90"/>
+<wire x1="231.14" y1="264.16" x2="213.36" y2="264.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$91" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_12B"/>
+<wire x1="111.76" y1="259.08" x2="88.9" y2="259.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$104" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_12A"/>
+<wire x1="111.76" y1="261.62" x2="88.9" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$109" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_8A"/>
+<wire x1="111.76" y1="271.78" x2="88.9" y2="271.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$112" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_7B"/>
+<wire x1="111.76" y1="274.32" x2="88.9" y2="274.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$113" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_7A_GBIN6"/>
+<wire x1="111.76" y1="276.86" x2="88.9" y2="276.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$114" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_6B_GBIN7"/>
+<wire x1="111.76" y1="279.4" x2="88.9" y2="279.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$115" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_6A"/>
+<wire x1="111.76" y1="281.94" x2="88.9" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$116" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_5A"/>
+<wire x1="111.76" y1="287.02" x2="88.9" y2="287.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$120" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_3B"/>
+<wire x1="111.76" y1="289.56" x2="88.9" y2="289.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$121" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_3A"/>
+<wire x1="111.76" y1="292.1" x2="88.9" y2="292.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$122" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_2A"/>
+<wire x1="111.76" y1="297.18" x2="88.9" y2="297.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$123" class="0">
+<segment>
+<pinref part="U$2" gate="G$4" pin="IOL_1B"/>
+<wire x1="111.76" y1="299.72" x2="88.9" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
