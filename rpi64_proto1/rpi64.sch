@@ -411,6 +411,19 @@
 <rectangle x1="-5.635" y1="7" x2="-5.365" y2="8" layer="51"/>
 <rectangle x1="-6.135" y1="7" x2="-5.865" y2="8" layer="51"/>
 </package>
+<package name="N64_CONTROLER">
+<pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
+<pad name="P$2" x="0" y="-4" drill="0.8" shape="square"/>
+<pad name="P$3" x="0" y="-8" drill="0.8" shape="square"/>
+<wire x1="-1" y1="1" x2="9.73" y2="1" width="0.127" layer="21"/>
+<wire x1="9.73" y1="1" x2="9.73" y2="-9" width="0.127" layer="21"/>
+<wire x1="9.73" y1="-9" x2="-1" y2="-9" width="0.127" layer="21"/>
+<wire x1="-1" y1="-9" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="8.73" y2="0" width="1.016" layer="21"/>
+<wire x1="2" y1="-4" x2="8.73" y2="-4" width="1.016" layer="21"/>
+<wire x1="2" y1="-8" x2="8.73" y2="-8" width="1.016" layer="21"/>
+<text x="2.54" y="-2.54" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="5530843-5">
@@ -622,6 +635,16 @@
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
 <text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="N64_CONECTOR">
+<pin name="GND" x="-7.62" y="2.54" length="short" direction="pwr"/>
+<pin name="SIG" x="-7.62" y="-2.54" length="short" direction="pwr"/>
+<pin name="VCC" x="-7.62" y="-7.62" length="short" direction="pwr"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-3.556" y="5.588" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -882,6 +905,23 @@
 <connect gate="G$6" pin="VCC@3" pad="77"/>
 <connect gate="G$6" pin="VPP_2V5" pad="75"/>
 <connect gate="G$6" pin="VPP_FAST" pad="76"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="N64_CONTROLER">
+<gates>
+<gate name="G$1" symbol="N64_CONECTOR" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="N64_CONTROLER">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="SIG" pad="P$2"/>
+<connect gate="G$1" pin="VCC" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11938,6 +11978,10 @@ www.irf.com&lt;p&gt;
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="R52" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
+<part name="U$6" library="rpi64" deviceset="N64_CONTROLER" device=""/>
+<part name="U$7" library="rpi64" deviceset="N64_CONTROLER" device=""/>
+<part name="U$8" library="rpi64" deviceset="N64_CONTROLER" device=""/>
+<part name="U$9" library="rpi64" deviceset="N64_CONTROLER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12039,6 +12083,10 @@ for SPI slave prog mode</text>
 <instance part="SUPPLY7" gate="GND" x="297.18" y="58.42"/>
 <instance part="R52" gate="G$1" x="299.72" y="91.44"/>
 <instance part="+3V10" gate="G$1" x="289.56" y="91.44" rot="R90"/>
+<instance part="U$6" gate="G$1" x="53.34" y="203.2"/>
+<instance part="U$7" gate="G$1" x="76.2" y="203.2"/>
+<instance part="U$8" gate="G$1" x="96.52" y="203.2"/>
+<instance part="U$9" gate="G$1" x="116.84" y="203.2"/>
 </instances>
 <busses>
 </busses>
