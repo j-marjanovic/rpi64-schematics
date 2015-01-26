@@ -126,56 +126,56 @@
 <text x="4" y="1" size="1" layer="21">50</text>
 </package>
 <package name="EDGE50">
-<smd name="P$1" x="0" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$2" x="2.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$3" x="5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$4" x="7.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$5" x="10" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$6" x="12.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$7" x="15" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$8" x="17.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$9" x="20" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$10" x="22.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$11" x="25" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$12" x="27.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$13" x="30" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$14" x="32.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$15" x="35" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$16" x="37.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$17" x="40" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$18" x="42.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$19" x="45" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$20" x="47.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$21" x="50" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$22" x="52.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$23" x="55" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$24" x="57.5" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$25" x="60" y="4.5" dx="1.5" dy="9" layer="1"/>
-<smd name="P$26" x="60" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$27" x="57.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$28" x="55" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$29" x="52.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$30" x="50" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$31" x="47.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$32" x="45" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$33" x="42.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$34" x="40" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$35" x="37.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$36" x="35" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$37" x="32.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$38" x="30" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$39" x="27.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$40" x="25" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$41" x="22.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$42" x="20" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$43" x="17.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$44" x="15" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$45" x="12.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$46" x="10" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$47" x="7.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$48" x="5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$49" x="2.5" y="4.5" dx="1.5" dy="9" layer="16"/>
-<smd name="P$50" x="0" y="4.5" dx="1.5" dy="9" layer="16"/>
+<smd name="P$1" x="0" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$2" x="2.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$3" x="5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$4" x="7.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$5" x="10" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$6" x="12.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$7" x="15" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$8" x="17.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$9" x="20" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$10" x="22.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$11" x="25" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$12" x="27.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$13" x="30" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$14" x="32.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$15" x="35" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$16" x="37.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$17" x="40" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$18" x="42.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$19" x="45" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$20" x="47.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$21" x="50" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$22" x="52.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$23" x="55" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$24" x="57.5" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$25" x="60" y="4.754" dx="1.5" dy="9" layer="1"/>
+<smd name="P$26" x="60" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$27" x="57.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$28" x="55" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$29" x="52.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$30" x="50" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$31" x="47.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$32" x="45" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$33" x="42.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$34" x="40" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$35" x="37.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$36" x="35" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$37" x="32.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$38" x="30" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$39" x="27.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$40" x="25" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$41" x="22.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$42" x="20" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$43" x="17.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$44" x="15" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$45" x="12.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$46" x="10" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$47" x="7.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$48" x="5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$49" x="2.5" y="4.754" dx="1.5" dy="9" layer="16"/>
+<smd name="P$50" x="0" y="4.754" dx="1.5" dy="9" layer="16"/>
 <text x="-0.5" y="10.5" size="1.27" layer="21">1</text>
 <text x="21.5" y="10.5" size="1.27" layer="21">10</text>
 <text x="46.5" y="10.5" size="1.27" layer="21">20</text>
@@ -17499,6 +17499,15 @@ for SPI slave prog mode</text>
 <wire x1="388.62" y1="86.36" x2="396.24" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$6" pin="GND@9"/>
 <wire x1="388.62" y1="83.82" x2="396.24" y2="83.82" width="0.1524" layer="91"/>
+<junction x="396.24" y="104.14"/>
+<junction x="396.24" y="101.6"/>
+<junction x="396.24" y="99.06"/>
+<junction x="396.24" y="96.52"/>
+<junction x="396.24" y="93.98"/>
+<junction x="396.24" y="91.44"/>
+<junction x="396.24" y="88.9"/>
+<junction x="396.24" y="86.36"/>
+<junction x="396.24" y="83.82"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -17547,6 +17556,9 @@ for SPI slave prog mode</text>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="337.82" y1="167.64" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="165.1" x2="327.66" y2="165.1" width="0.1524" layer="91"/>
+<junction x="307.34" y="165.1"/>
+<junction x="317.5" y="165.1"/>
+<junction x="327.66" y="165.1"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -17571,6 +17583,11 @@ for SPI slave prog mode</text>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="332.74" y1="187.96" x2="332.74" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="185.42" x2="325.12" y2="185.42" width="0.1524" layer="91"/>
+<junction x="325.12" y="185.42"/>
+<junction x="317.5" y="185.42"/>
+<junction x="309.88" y="185.42"/>
+<junction x="302.26" y="185.42"/>
+<junction x="294.64" y="185.42"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -17627,6 +17644,7 @@ for SPI slave prog mode</text>
 <wire x1="375.92" y1="45.72" x2="375.92" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="375.92" y1="43.18" x2="375.92" y2="45.72" width="0.1524" layer="91"/>
+<junction x="375.92" y="45.72"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="VIN"/>
@@ -17657,6 +17675,7 @@ for SPI slave prog mode</text>
 <pinref part="U$2" gate="G$2" pin="VCCIO_1@1"/>
 <wire x1="292.1" y1="307.34" x2="287.02" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="307.34" x2="287.02" y2="309.88" width="0.1524" layer="91"/>
+<junction x="287.02" y="309.88"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$3" pin="VCCIO_2"/>
@@ -17733,6 +17752,12 @@ for SPI slave prog mode</text>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="195.58" x2="332.74" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="198.12" x2="325.12" y2="198.12" width="0.1524" layer="91"/>
+<junction x="287.02" y="198.12"/>
+<junction x="294.64" y="198.12"/>
+<junction x="302.26" y="198.12"/>
+<junction x="309.88" y="198.12"/>
+<junction x="317.5" y="198.12"/>
+<junction x="325.12" y="198.12"/>
 </segment>
 <segment>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
@@ -17748,6 +17773,7 @@ for SPI slave prog mode</text>
 <wire x1="307.34" y1="231.14" x2="307.34" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="238.76" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="238.76" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
+<junction x="274.32" y="233.68"/>
 </segment>
 <segment>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
@@ -17774,6 +17800,7 @@ for SPI slave prog mode</text>
 <wire x1="342.9" y1="45.72" x2="342.9" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="342.9" y1="43.18" x2="342.9" y2="45.72" width="0.1524" layer="91"/>
+<junction x="342.9" y="45.72"/>
 </segment>
 </net>
 <net name="N$101" class="0">
@@ -17806,6 +17833,9 @@ for SPI slave prog mode</text>
 <wire x1="347.98" y1="99.06" x2="347.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="106.68" x2="337.82" y2="106.68" width="0.1524" layer="91"/>
 <label x="337.82" y="106.68" size="1.778" layer="95"/>
+<junction x="347.98" y="104.14"/>
+<junction x="347.98" y="106.68"/>
+<junction x="347.98" y="101.6"/>
 </segment>
 <segment>
 <label x="279.4" y="177.8" size="1.778" layer="95"/>
@@ -17824,6 +17854,10 @@ for SPI slave prog mode</text>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="175.26" x2="337.82" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="177.8" x2="327.66" y2="177.8" width="0.1524" layer="91"/>
+<junction x="327.66" y="177.8"/>
+<junction x="317.5" y="177.8"/>
+<junction x="307.34" y="177.8"/>
+<junction x="297.18" y="177.8"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
@@ -17839,6 +17873,7 @@ for SPI slave prog mode</text>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="281.94" y1="93.98" x2="276.86" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="91.44" x2="281.94" y2="93.98" width="0.1524" layer="91"/>
+<junction x="281.94" y="93.98"/>
 </segment>
 </net>
 <net name="RPI_GPIO25" class="0">
@@ -17911,6 +17946,7 @@ for SPI slave prog mode</text>
 <pinref part="R52" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="91.44" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="91.44" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
+<junction x="307.34" y="86.36"/>
 </segment>
 </net>
 <net name="RPI_GPIO24" class="0">
@@ -18121,24 +18157,6 @@ for SPI slave prog mode</text>
 <pinref part="U$2" gate="G$1" pin="IOT_85_GBIN0"/>
 <wire x1="231.14" y1="276.86" x2="213.36" y2="276.86" width="0.1524" layer="91"/>
 <label x="215.9" y="276.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$110" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="IOT_90"/>
-<wire x1="231.14" y1="264.16" x2="213.36" y2="264.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$113" class="0">
-<segment>
-<pinref part="U$2" gate="G$4" pin="IOL_7A_GBIN6"/>
-<wire x1="111.76" y1="276.86" x2="88.9" y2="276.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$114" class="0">
-<segment>
-<pinref part="U$2" gate="G$4" pin="IOL_6B_GBIN7"/>
-<wire x1="111.76" y1="279.4" x2="88.9" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SLOT_15" class="0">
@@ -18402,6 +18420,7 @@ for SPI slave prog mode</text>
 <pinref part="R68" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="73.66" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="73.66" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
+<junction x="304.8" y="73.66"/>
 </segment>
 </net>
 <net name="N$104" class="0">
@@ -18485,6 +18504,9 @@ for SPI slave prog mode</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,347.98,142.24,U$9,SIG,CTRL3,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
