@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,19 +58,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
+<wire x1="46.99" y1="0" x2="100" y2="0" width="0" layer="20"/>
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
-<wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
-<wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="80" x2="6.858" y2="72.898" x3="-2.54" y3="76.449" textsize="1.778" layer="20" dtype="vertical"/>
-<dimension x1="3.556" y1="7.366" x2="4.064" y2="0.254" x3="-4.826" y3="3.81" textsize="1.778" layer="20" dtype="vertical"/>
-<dimension x1="101.092" y1="11.176" x2="101.092" y2="15.24" x3="102.616" y3="13.208" textsize="1.778" layer="20" dtype="vertical"/>
-<dimension x1="101.092" y1="25.908" x2="101.092" y2="29.972" x3="102.616" y3="27.94" textsize="1.778" layer="20" dtype="vertical"/>
-<dimension x1="100.584" y1="65.024" x2="100.584" y2="69.088" x3="102.108" y3="67.056" textsize="1.778" layer="20" dtype="vertical"/>
-<dimension x1="100.584" y1="50.292" x2="100.584" y2="54.356" x3="102.108" y3="52.324" textsize="1.778" layer="20" dtype="vertical"/>
-<dimension x1="89.408" y1="80.518" x2="85.344" y2="80.518" x3="87.376" y3="84.836" textsize="1.778" layer="20" dtype="horizontal"/>
-<dimension x1="0" y1="80" x2="50.038" y2="80.01" x3="25.019" y3="84.328" textsize="1.778" layer="20" dtype="horizontal"/>
-<dimension x1="84.836" y1="-0.508" x2="88.9" y2="-0.508" x3="86.868" y3="-4.826" textsize="1.778" layer="20" dtype="horizontal"/>
+<wire x1="100" y1="80" x2="46.99" y2="80" width="0" layer="20"/>
+<wire x1="46.99" y1="80" x2="46.99" y2="72.644" width="0" layer="20"/>
+<wire x1="46.99" y1="72.644" x2="0.254" y2="72.644" width="0" layer="20"/>
+<wire x1="0.254" y1="72.644" x2="0.254" y2="7.366" width="0" layer="20"/>
+<wire x1="0.254" y1="7.366" x2="46.99" y2="7.366" width="0" layer="20"/>
+<wire x1="46.99" y1="7.366" x2="46.99" y2="0" width="0" layer="20"/>
+<text x="75.5142" y="62.2808" size="1.27" layer="21">MARJANOVIC
+        2015</text>
+<text x="40.0304" y="65.024" size="3.048" layer="21" rot="SR270">JAN MARJANOVIC, 2015</text>
+<text x="40.0304" y="65.024" size="3.048" layer="21" rot="SR270">JAN MARJANOVIC, 2015</text>
+<text x="43.1546" y="65.024" size="3.048" layer="22" rot="SMR270">JAN MARJANOVIC, 2015</text>
 </plain>
 <libraries>
 <library name="rpi64">
@@ -199,9 +199,9 @@
 <text x="48.5" y="10.5" size="1.27" layer="22" rot="MR0">30</text>
 <text x="23.5" y="10.5" size="1.27" layer="22" rot="MR0">40</text>
 <text x="1" y="10.5" size="1.27" layer="22" rot="MR0">50</text>
-<wire x1="-2.7" y1="-0.2" x2="-2.7" y2="16.4" width="0.127" layer="20"/>
-<wire x1="62.8" y1="-0.2" x2="62.8" y2="16.4" width="0.127" layer="20"/>
-<wire x1="-2.7" y1="-0.2" x2="62.7" y2="-0.2" width="0.127" layer="20"/>
+<wire x1="-2.7" y1="-0.2" x2="-2.7" y2="16.4" width="0.127" layer="49"/>
+<wire x1="62.8" y1="-0.2" x2="62.8" y2="16.4" width="0.127" layer="49"/>
+<wire x1="-2.7" y1="-0.2" x2="62.7" y2="-0.2" width="0.127" layer="49"/>
 </package>
 <package name="SOT23A">
 <wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
@@ -427,9 +427,9 @@
 <rectangle x1="-6.135" y1="7" x2="-5.865" y2="8" layer="51"/>
 </package>
 <package name="N64_CONTROLER">
-<pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
-<pad name="P$2" x="0" y="-4" drill="0.8" shape="square"/>
-<pad name="P$3" x="0" y="-8" drill="0.8" shape="square"/>
+<pad name="P$1" x="0" y="0" drill="1" diameter="1.7" shape="square"/>
+<pad name="P$2" x="0" y="-4" drill="1" diameter="1.7" shape="square"/>
+<pad name="P$3" x="0" y="-8" drill="1" diameter="1.7" shape="square"/>
 <wire x1="-1" y1="1" x2="9.73" y2="1" width="0.127" layer="21"/>
 <wire x1="9.73" y1="1" x2="9.73" y2="-9" width="0.127" layer="21"/>
 <wire x1="9.73" y1="-9" x2="-1" y2="-9" width="0.127" layer="21"/>
@@ -5190,13 +5190,13 @@ design rules under a new name.</description>
 <contactref element="R65" pad="2"/>
 <contactref element="U$2" pad="94"/>
 <wire x1="79.59" y1="74.93" x2="91.694" y2="74.93" width="0.3048" layer="1"/>
-<wire x1="91.694" y1="74.93" x2="93.472" y2="73.152" width="0.3048" layer="1"/>
+<wire x1="91.694" y1="74.93" x2="93.2434" y2="73.5076" width="0.3048" layer="1"/>
 <wire x1="97.536" y1="50.546" x2="97.536" y2="44.1198" width="0.3048" layer="1"/>
 <wire x1="97.536" y1="44.1198" x2="97.028" y2="43.6118" width="0.3048" layer="1"/>
 <wire x1="97.028" y1="43.6118" x2="93.908884375" y2="43.6118" width="0.3048" layer="1"/>
 <wire x1="93.908884375" y1="43.6118" x2="93.856971875" y2="43.6106875" width="0.3048" layer="1"/>
-<wire x1="93.472" y1="73.152" x2="93.472" y2="67.818" width="0.3048" layer="1"/>
-<wire x1="93.472" y1="67.818" x2="95.504" y2="65.786" width="0.3048" layer="1"/>
+<wire x1="93.2434" y1="73.5076" x2="93.218" y2="68.0974" width="0.3048" layer="1"/>
+<wire x1="93.218" y1="68.0974" x2="95.504" y2="65.786" width="0.3048" layer="1"/>
 <wire x1="95.504" y1="65.786" x2="95.504" y2="52.578" width="0.3048" layer="1"/>
 <wire x1="95.504" y1="52.578" x2="97.536" y2="50.546" width="0.3048" layer="1"/>
 </signal>
@@ -5582,4 +5582,10 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

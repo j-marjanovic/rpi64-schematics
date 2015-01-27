@@ -184,9 +184,9 @@
 <text x="48.5" y="10.5" size="1.27" layer="22" rot="MR0">30</text>
 <text x="23.5" y="10.5" size="1.27" layer="22" rot="MR0">40</text>
 <text x="1" y="10.5" size="1.27" layer="22" rot="MR0">50</text>
-<wire x1="-2.7" y1="-0.2" x2="-2.7" y2="16.4" width="0.127" layer="20"/>
-<wire x1="62.8" y1="-0.2" x2="62.8" y2="16.4" width="0.127" layer="20"/>
-<wire x1="-2.7" y1="-0.2" x2="62.7" y2="-0.2" width="0.127" layer="20"/>
+<wire x1="-2.7" y1="-0.2" x2="-2.7" y2="16.4" width="0.127" layer="49"/>
+<wire x1="62.8" y1="-0.2" x2="62.8" y2="16.4" width="0.127" layer="49"/>
+<wire x1="-2.7" y1="-0.2" x2="62.7" y2="-0.2" width="0.127" layer="49"/>
 </package>
 <package name="SOT23A">
 <wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
@@ -412,9 +412,9 @@
 <rectangle x1="-6.135" y1="7" x2="-5.865" y2="8" layer="51"/>
 </package>
 <package name="N64_CONTROLER">
-<pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
-<pad name="P$2" x="0" y="-4" drill="0.8" shape="square"/>
-<pad name="P$3" x="0" y="-8" drill="0.8" shape="square"/>
+<pad name="P$1" x="0" y="0" drill="1" diameter="1.7" shape="square"/>
+<pad name="P$2" x="0" y="-4" drill="1" diameter="1.7" shape="square"/>
+<pad name="P$3" x="0" y="-8" drill="1" diameter="1.7" shape="square"/>
 <wire x1="-1" y1="1" x2="9.73" y2="1" width="0.127" layer="21"/>
 <wire x1="9.73" y1="1" x2="9.73" y2="-9" width="0.127" layer="21"/>
 <wire x1="9.73" y1="-9" x2="-1" y2="-9" width="0.127" layer="21"/>
